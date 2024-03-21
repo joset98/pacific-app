@@ -1,0 +1,36 @@
+/*# My general css ================================== */
+  *{
+    scroll-behavior: smooth;
+  }
+  *::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+  }
+  *::-webkit-scrollbar-track{
+    background: #fff;
+    border-radius: 0px;
+  }
+  *::-webkit-scrollbar-thumb{
+    background: #a0a0a0;
+    border-radius: 50px;
+  }
+  label{
+    user-select: none;
+  }
+
+/*# others css adminator ================================== */
+  @import '../js/sass/main.scss';
+
+/*# Loader ================================== */
+  .loaderDinamic{
+    position: fixed;
+    bottom: 0px;
+    left: 5px;
+    margin: 0px;
+    z-index: 9999;
+    &_children{
+      width: 35px;
+      height: 35px;
+      padding: 30px;
+    }
+  }

@@ -1,0 +1,49 @@
+  /* Styles auth components */
+  a{
+    cursor: pointer !important;
+  }
+  .checkbox input[type=checkbox]+label, .checkbox input[type=checkbox]{
+    cursor: pointer;
+  }
+  .checkbox input[type=checkbox]:focus+label:before{
+    outline: none !important;
+  }
+  .authLink{
+    font-size: 15px;
+    color: #000;
+  }
+  .authLink a{
+    transition: .3s all ease;
+    text-decoration: none;
+    color: #000;
+  }
+  .AuthbdT{
+    border-top: 1px solid rgba(0,0,0,.15);
+  }
+  .authBtn button{
+    font-size: 15px;
+  }
+  @media(max-width: 767px){
+    .authBtn button{
+      min-width: 120px;
+    }
+    .authLink a{
+      color: #dadada;
+    }
+    .authLink a:hover{
+      color: #fff;
+    }
+    .AuthbdT{
+      border-top: 1px solid rgba(255,255,255,.15);
+    }
+  }
+  @media(max-width: 600px){
+    .authBtn{
+      width: 100%;
+      margin-top: 15px;
+    }
+    .authBtn button{
+      width: 100%;
+      font-size: 16px;
+    }
+  }
